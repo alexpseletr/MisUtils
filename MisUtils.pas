@@ -31,7 +31,7 @@ unit MisUtils;
 interface
 
 uses  Classes, SysUtils, Forms, Graphics, Dialogs, process, Controls, lclType,
-  FileUtil, Masks, types, dateutils, strutils, Menus, LCLProc, LCLIntf;
+  LazFileUtils, Masks, types, dateutils, strutils, Menus, LCLProc, LCLIntf;
 
 var
 //  msjError  : string;       //mensaje de error de la aplicación
